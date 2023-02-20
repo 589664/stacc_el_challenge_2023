@@ -7,12 +7,6 @@ const ChartDataFromAPI = dynamic(() => import("@/components/APIChart"), {
   ssr: false,
 });
 
-const ChartSpotFromProp = dynamic(
-  () => import("@/components/ProviderPriceChart"),
-  {
-      ssr: false,
-  }
-);
 
 
 const Home = (props) => {
@@ -32,8 +26,8 @@ const Home = (props) => {
           </p>
           <ChartDataFromAPI />
 
-          <h3>Grafen under viser hva du hadde betalt uten strømselskapene.</h3>
-          <ChartSpotFromProp props={props} customChart={customChart} />
+          {/* <h3>Grafen under viser hva du hadde betalt uten strømselskapene.</h3>
+          <ChartSpotFromProp props={props} customChart={customChart} /> */}
         </main>
       </div>
     </>
