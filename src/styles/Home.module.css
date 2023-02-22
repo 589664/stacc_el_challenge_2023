@@ -1,1 +1,16 @@
+.description {
+  white-space: nowrap; /* prevent line breaks */
+  overflow: hidden; /* hide overflow */
+  font-family: monospace; /* use a monospace font */
+  animation: printout 4s linear both; /* use the printout animation */
+  font-size: 1.5em; /* set the font size */
+}
 
+@keyframes printout {
+  0% {
+    width: 0; /* start with zero width */
+  }
+  100% {
+    width: 100%; /* end with full width */
+  }
+}

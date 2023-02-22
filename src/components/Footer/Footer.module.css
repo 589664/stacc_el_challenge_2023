@@ -1,0 +1,82 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#wrap {
+  height: 100%;
+  position: relative;
+}
+
+#lightings {
+  bottom: -60px;
+  position: absolute;
+  width: 100%;
+}
+
+.section {
+  border-radius: 50%;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+#one {
+  animation: one 5s ease-in-out infinite alternate;
+}
+
+@keyframes one {
+  from {
+    box-shadow: 0 0 250px 20px #473c78;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #f72a3b;
+  }
+}
+
+#two {
+  width: 90%;
+  animation: two 4s ease-in-out infinite alternate;
+}
+
+@keyframes two {
+  from {
+    box-shadow: 0 0 250px 20px #18c499;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #d8f05e;
+  }
+}
+
+#three {
+  width: 80%;
+  animation: three 3s ease-in-out infinite alternate;
+}
+
+@keyframes three {
+  from {
+    box-shadow: 0 0 250px 20px #ffdd00;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #3e33ff;
+  }
+}
+
+#four {
+  width: 70%;
+  animation: four 2s ease-in-out infinite alternate;
+}
+
+@keyframes four {
+  from {
+    box-shadow: 0 0 250px 20px #781848;
+  }
+  to {
+    box-shadow: 0 0 100px 15px #e81c7f;
+  }
+}

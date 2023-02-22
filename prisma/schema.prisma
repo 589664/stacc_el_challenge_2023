@@ -15,27 +15,3 @@ model EnergyConsumption {
   consumptionUnit String
 }
 
-// model electricUserData {
-//   id          Int      @id @default(autoincrement())
-//   usersession Int
-//   from        DateTime @db.Timestamptz(6)
-//   to          DateTime @db.Timestamptz(6)
-//   consumption Decimal
-// }
-
-// model electricalDeals {
-//   id         Int     @id @default(autoincrement())
-//   company    String
-//   product    String
-//   monthlyFee Decimal
-//   spotAddon  Decimal
-// }
-
-// model spottPrices {
-//   datetime DateTime @id @db.Timestamptz(6)
-//   no1      Decimal
-//   no2      Decimal
-//   no3      Decimal
-//   no4      Decimal
-//   no5      Decimal
-// }
